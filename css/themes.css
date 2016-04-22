@@ -1,0 +1,151 @@
+/*!
+ * Bespoke.js Demo Themes
+ *
+ * These styles are hard-coded to be pre-processor agnostic.
+ * In reality, you should probably use -prefix-free or LESS / SCSS / Stylus.
+ *
+ * This is only scratching the surfact of what can be done.
+ * Be creative and make something that surprises people! ;)
+ *
+ */
+
+
+
+/* Coverflow Theme */
+.coverflow {
+	background: rgba(42, 206, 185, 0.2);
+}
+.coverflow section,
+.coverflow .arrow:hover {
+	background: rgb(42, 206, 185);
+}
+.coverflow a {
+	color: rgb(42, 206, 185);
+}
+.coverflow section.bespoke-before {
+	-webkit-transform: translateX(-270px) rotateY(45deg) scale(0.6);
+	-moz-transform: translateX(-270px) rotateY(45deg) scale(0.6);
+	-ms-transform: translateX(-270px) rotateY(45deg) scale(0.6);
+	-o-transform: translateX(-270px) rotateY(45deg) scale(0.6);
+	transform: translateX(-270px) rotateY(45deg) scale(0.6);
+	z-index: 6;
+}
+.coverflow section.bespoke-before-3 {
+	-webkit-transform: translateX(-180px) translateY(5px) rotateY(45deg) scale(0.77);
+	-moz-transform: translateX(-180px) translateY(5px) rotateY(45deg) scale(0.77);
+	-ms-transform: translateX(-180px) translateY(5px) rotateY(45deg) scale(0.77);
+	-o-transform: translateX(-180px) translateY(5px) rotateY(45deg) scale(0.77);
+	transform: translateX(-180px) translateY(5px) rotateY(45deg) scale(0.77);
+	opacity: 0.4;
+	z-index: 7;
+}
+.coverflow section.bespoke-before-2 {
+	-webkit-transform: translateX(-140px) translateY(5px) rotateY(45deg) scale(0.77);
+	-moz-transform: translateX(-140px) translateY(5px) rotateY(45deg) scale(0.77);
+	-ms-transform: translateX(-140px) translateY(5px) rotateY(45deg) scale(0.77);
+	-o-transform: translateX(-140px) translateY(5px) rotateY(45deg) scale(0.77);
+	transform: translateX(-140px) translateY(5px) rotateY(45deg) scale(0.77);
+	opacity: 0.6;
+	z-index: 8;
+}
+.coverflow section.bespoke-before-1 {
+	-webkit-transform: translateX(-100px) translateY(5px) rotateY(45deg) scale(0.77);
+	-moz-transform: translateX(-100px) translateY(5px) rotateY(45deg) scale(0.77);
+	-ms-transform: translateX(-100px) translateY(5px) rotateY(45deg) scale(0.77);
+	-o-transform: translateX(-100px) translateY(5px) rotateY(45deg) scale(0.77);
+	transform: translateX(-100px) translateY(5px) rotateY(45deg) scale(0.77);
+	opacity: 0.8;
+	z-index: 9;
+}
+.coverflow section.bespoke-active {
+	z-index: 10;
+}
+.coverflow section.bespoke-after {
+	-webkit-transform: translateX(270px) rotateY(-45deg) scale(0.6);
+	-moz-transform: translateX(270px) rotateY(-45deg) scale(0.6);
+	-ms-transform: translateX(270px) rotateY(-45deg) scale(0.6);
+	-o-transform: translateX(270px) rotateY(-45deg) scale(0.6);
+	transform: translateX(270px) rotateY(-45deg) scale(0.6);
+	z-index: 6;
+}
+.coverflow section.bespoke-after-1 {
+	-webkit-transform: translateX(100px) translateY(5px) rotateY(-45deg) scale(0.77);
+	-moz-transform: translateX(100px) translateY(5px) rotateY(-45deg) scale(0.77);
+	-ms-transform: translateX(100px) translateY(5px) rotateY(-45deg) scale(0.77);
+	-o-transform: translateX(100px) translateY(5px) rotateY(-45deg) scale(0.77);
+	transform: translateX(100px) translateY(5px) rotateY(-45deg) scale(0.77);
+	opacity: 0.8;
+	z-index: 9;
+}
+.coverflow section.bespoke-after-2 {
+	-webkit-transform: translateX(140px) translateY(5px) rotateY(-45deg) scale(0.77);
+	-moz-transform: translateX(140px) translateY(5px) rotateY(-45deg) scale(0.77);
+	-ms-transform: translateX(140px) translateY(5px) rotateY(-45deg) scale(0.77);
+	-o-transform: translateX(140px) translateY(5px) rotateY(-45deg) scale(0.77);
+	transform: translateX(140px) translateY(5px) rotateY(-45deg) scale(0.77);
+	opacity: 0.6;
+	z-index: 8;
+}
+.coverflow section.bespoke-after-3 {
+	-webkit-transform: translateX(180px) translateY(5px) rotateY(-45deg) scale(0.77);
+	-moz-transform: translateX(180px) translateY(5px) rotateY(-45deg) scale(0.77);
+	-ms-transform: translateX(180px) translateY(5px) rotateY(-45deg) scale(0.77);
+	-o-transform: translateX(180px) translateY(5px) rotateY(-45deg) scale(0.77);
+	transform: translateX(180px) translateY(5px) rotateY(-45deg) scale(0.77);
+	opacity: 0.4;
+	z-index: 7;
+}
+
+/* Coverflow Theme vertical */
+.coverflow-vertical {
+	background: rgba(42, 206, 185, 0.2);
+}
+.coverflow-vertical section,
+.coverflow-vertical .arrow:hover {
+	background: rgb(42, 206, 185);
+}
+.coverflow-vertical a {
+	color: rgb(42, 206, 185);
+}
+.coverflow-vertical section.bespoke-before {	
+	transform: translateX(0) translateY(-270px) rotateY(0) scale(0.77);
+	z-index: 6;
+}
+.coverflow-vertical section.bespoke-before-3 {
+	transform: translateX(0) translateY(-180px) rotateY(0) scale(0.77);
+	opacity: 0.4;
+	z-index: 7;
+}
+.coverflow-vertical section.bespoke-before-2 {
+	transform: translateX(0) translateY(-140px) rotateY(0) scale(0.77);
+	opacity: 0.6;
+	z-index: 8;
+}
+.coverflow-vertical section.bespoke-before-1 {
+	transform: translateX(0) translateY(-100px) rotateY(0) scale(0.77);
+	opacity: 0.8;
+	z-index: 9;
+}
+.coverflow-vertical section.bespoke-active {
+	z-index: 10;
+}
+.coverflow-vertical section.bespoke-after {	
+	transform: translateX(0) translateY(300px) rotateY(0) scale(0.77);
+	z-index: 6;
+}
+.coverflow-vertical section.bespoke-after-1 {	
+	transform: translateX(0) translateY(100px) rotateY(0) scale(0.77);
+	opacity: 0.8;
+	z-index: 9;
+}
+.coverflow-vertical section.bespoke-after-2 {
+	transform: translateX(0) translateY(140px) rotateY(0) scale(0.77);
+	opacity: 0.6;
+	z-index: 8;
+}
+.coverflow-vertical section.bespoke-after-3 {
+	transform: translateX(0) translateY(180px) rotateY(0) scale(0.77);
+	opacity: 0.4;
+	z-index: 7;
+}
+
